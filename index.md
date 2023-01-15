@@ -34,11 +34,13 @@
   - `cd` - changes directory
   - `cd ..` - changes directory to the current directory's parent directory.
   - `cd <existing directory name>` - changes current directory to the existing directory in the current directory.
+  
   2) Example:
 ![image](https://user-images.githubusercontent.com/108198218/212571490-805f40d8-4c7a-4025-b4df-e6defc038b3f.png)
 `pwd` shows that you are in your current directory.
 `cd ..` changes the dirctory to the class's directory.
 `ls` shows all the student directories in your class directory.
+  
   3) Example:
 ![image](https://user-images.githubusercontent.com/108198218/212572123-3b49f2b3-a507-4c56-b182-49e2fc8c2b29.png)  
   `cd ~` returns to your home directory which is you cs15lwi23zz directory. `ls` lists the files in the directory. `cat hello.txt` prints the contents in "hello.txt".
