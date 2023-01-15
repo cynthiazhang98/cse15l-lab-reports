@@ -17,5 +17,11 @@
   ![image](https://user-images.githubusercontent.com/108198218/212520265-10365005-2ed0-4c80-87c3-1a9f60c279ea.png)
   5) In the terminal type `ssh cs15lwi23zz@ieng6.ucsd.edu`
     - `cs15lwi23zz` should be replaced with your own ucsd course-specific account that you can look up in: https://sdacs.ucsd.edu/~icc/index.php. Your account should be similar to `cs15lwi23zz` but replaces "zz" with your own ID.
+  6) If this is your first time connecting, a question asking about authenticity should pop up and just type 'yes' as the answer.
+  7) A Password request should pop up and enter your password that is linked to the account. You shouldn't see anything when typing your password and it should look:
+![image](https://user-images.githubusercontent.com/108198218/212570404-0a675662-79ca-439b-b95d-18e380d44c80.png)
+  8) Your screen should look similar:
+![image](https://user-images.githubusercontent.com/108198218/212570640-58305114-137e-4136-9713-8fc4a6c3a9f3.png)
+  9) You are now connected!
 
 ### III. Trying Commands
