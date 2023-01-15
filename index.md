@@ -26,3 +26,10 @@
   9) You are now connected!
 
 ### III. Trying Commands
+  1) Some commands to type in:
+  - `pwd` - shows you the path of the current directory you are in.
+  - `ls` - lists the content in your directory.
+  - `cat` - prints all contents in a file in terminal.
+  - `cd` - changes directory
+  - `cd ..` - changes directory to the current directory's parent directory.
+  - `cd <existing directory name>` - changes current directory to the existing directory in the current directory.
