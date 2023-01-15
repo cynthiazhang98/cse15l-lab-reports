@@ -39,3 +39,6 @@
 `pwd` shows that you are in your current directory.
 `cd ..` changes the dirctory to the class's directory.
 `ls` shows all the student directories in your class directory.
+  3) Example:
+![image](https://user-images.githubusercontent.com/108198218/212571667-7cd2cd34-81c8-4193-b5d9-98df9a72a47b.png)
+`cd ~` returns to your home directory which is you cs15lwi23zz directory. `ls` lists the files in the directory. `cat hello.txt` prints the contents in "hello.txt".
