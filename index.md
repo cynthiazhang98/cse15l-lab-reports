@@ -9,7 +9,7 @@
 4) Yay! You downloaded VScode!
 
 ### II. Remotely Connecting
-  1) Make sure git is downloaded on your computer, if not go on website: https://gitforwindows.org/ and download git for your computer
+  1) Make sure git is downloaded on your computer, if not go on website: [Github](https://gitforwindows.org/) and download git for your computer
   2) Open VScode and open a terminal with shortcut: `Ctrl` + " ` " or by clicking "Terminal" >> "New Terminal" :
   ![image](https://user-images.githubusercontent.com/108198218/212520085-a9192d66-8c27-4c2d-ab3d-57b7d0f73127.png)
   3) Open the command palette using 'Ctrl' + 'Shift' + 'P' and type "Select Default Profile" then select the "Git Bash" Option
@@ -17,7 +17,7 @@
   4) Now open a new Terminal and it should be in the git bash terminal and should look like:
   ![image](https://user-images.githubusercontent.com/108198218/212520265-10365005-2ed0-4c80-87c3-1a9f60c279ea.png)
   5) In the terminal type `ssh cs15lwi23zz@ieng6.ucsd.edu`
-    - `cs15lwi23zz` should be replaced with your own ucsd course-specific account that you can look up in: https://sdacs.ucsd.edu/~icc/index.php. Your account should be similar to `cs15lwi23zz` but replaces "zz" with your own ID.
+    - `cs15lwi23zz` should be replaced with your own ucsd course-specific account that you can look up in: [Course-specific account](https://sdacs.ucsd.edu/~icc/index.php). Your account should be similar to `cs15lwi23zz` but replaces "zz" with your own ID.
   
   6) If this is your first time connecting, a question asking about authenticity should pop up and just type 'yes' as the answer. 
 
