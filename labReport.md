@@ -46,20 +46,24 @@ The `handleRequest` method is called again and this time "hello" is assigned to 
             ArrayExamples.reverseInPlace(input1);
             assertArrayEquals(new int[]{3,2,1}, input1);
         }
+        
 #### Non-Failure inducing test
         public void testReverseInPlace() {
             int[] input1 = {3};
             ArrayExamples.reverseInPlace(input1);
             assertArrayEquals(new int[]{3}, input1);
         }
+        
 #### The Symptom:
 ![image](https://user-images.githubusercontent.com/108198218/215376362-55305602-3aad-437e-8a58-f2905717dee8.png)
+
 #### The buggy program Before:
         static void reverseInPlace(int[] arr) {
             for(int i = 0; i < arr.length; i += 1) {
               arr[i] = arr[arr.length - i - 1];
             }
           }
+          
 #### The fixed program After:
         static void reverseInPlace(int[] arr) {
             int[] newArray1 = new int[arr.length];
