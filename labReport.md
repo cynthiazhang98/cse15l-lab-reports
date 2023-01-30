@@ -35,4 +35,25 @@ Results:
 1) ![image](https://user-images.githubusercontent.com/108198218/215370682-01cb8d5f-0823-4b81-90a6-80e43b164496.png)
 The `handleRequest` method is called and it reads the second parameter after "add-message?s=" and returns the `message`. `message` is a string variable declared outside of the `handleRequest` method so that it stays independent of everytime the method is run. This time the method is run "hi" is added to `message` and returns and prints "hi" like abbove.
 2) ![image](https://user-images.githubusercontent.com/108198218/215370954-97353604-7317-4946-904a-8bbda27b632d.png)
-The `handleRequest` method is called again and this time "hello" is assigned to the second parameter. "hello" is then added to the `message` variable with a "\n" that signifies a new paragraph. The message variable is then returned and because the message variable already has "hi" on it both are printed.
+The `handleRequest` method is called again and this time "hello" is assigned to the second parameter. "hello" is then added to the `message` variable with a "\n" that signifies a new paragraph. The `message` variable is then returned and because the `message` variable already has "hi" on it both are printed.
+
+### Part 2
+#### The buggy program:
+        static void reverseInPlace(int[] arr) {
+            for(int i = 0; i < arr.length; i += 1) {
+              arr[i] = arr[arr.length - i - 1];
+            }
+          }
+
+#### Failure inducing
+        public void testReverseInPlace() {
+            int[] input1 = {1,2,3};
+            ArrayExamples.reverseInPlace(input1);
+            assertArrayEquals(new int[]{3,2,1}, input1);
+        }
+#### Non-Failure inducing
+        public void testReverseInPlace() {
+            int[] input1 = {3};
+            ArrayExamples.reverseInPlace(input1);
+            assertArrayEquals(new int[]{3}, input1);
+        }
