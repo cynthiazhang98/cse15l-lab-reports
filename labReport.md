@@ -1,4 +1,5 @@
 ## Servers and Bugs
+In this lab report we are analyzing bugs and symptoms in a program.
 ### Part 1
     import java.io.IOException;
     import java.net.URI;
