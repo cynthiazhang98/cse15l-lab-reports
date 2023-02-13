@@ -76,6 +76,8 @@ The `handleRequest` method is called again and when the `parameter[0]` is equal 
               arr[i]=newArray1[i];
             }
           }
-          
-### Part 3
+
+The reason why it was buggy is because the original buggy program would change a slot in the array before that slot's elements got saved. The program would then access it after changing the element which would cause the accessed element to be wrong. I then changed the program so it wasn't like that and would assign all the variables to a different array.  
+
+### Part  3
 I learned about being able to open a different persons server on my own local host. I learned about how if switch to UCSD's remote desktop and run my partners engine and port number on my own computer. It was really cool and I was able to send messages to my partner if he ran it with me.
