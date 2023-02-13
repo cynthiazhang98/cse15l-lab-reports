@@ -1,4 +1,4 @@
-## Lab Report 2
+## Servers and Bugs
 ### Part 1
     import java.io.IOException;
     import java.net.URI;
@@ -21,7 +21,8 @@
     public class StringServer {
         public static void main(String[] args) throws IOException {
             if(args.length == 0){
-                System.out.println("Missing port number! Try any number between 1024 to 49151");
+                System.out.println("Missing port number! 
+                    Try any number between 1024 to 49151");
                 return;
             }
 
