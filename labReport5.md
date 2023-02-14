@@ -82,7 +82,11 @@
 ```
 [cs15lwi23auy@ieng6-201]:skill-demo1-data:394$ find ./written_2 -name "Algarve-History.txt" -exec cat {} \;
 A Brief History
-Little is known of the earliest Stone Age inhabitants of Europe’s southwestern extremity. The ancient Greeks called them the Cynetes (or Cunetes). Whatever their origins, their culture evolved under the pressure and influence of foreign forces. Among the many invading armies that settled here and contributed to nascent Portuguese culture were Phoenicians, who settled in the area around 1,000 b.c., followed by the Celts, Iberians, Greeks, and Carthaginians.
+Little is known of the earliest Stone Age inhabitants of Europe’s southwestern extremity.
+The ancient Greeks called them the Cynetes (or Cunetes). Whatever their origins, their culture 
+evolved under the pressure and influence of foreign forces. Among the many invading armies that 
 ...
-With aid from the EU, Portugal became one of the fastest-growing countries in Europe. The Algarve, already a favorite of sun-seeking beach lovers from England and Northern Europe, also benefited from EU funds to build up its infrastructure and to invest in tourism. In 1998 Portugal hosted the World Expo in Lisbon, and in 1999 further consolidated its European membership by accepting the gradual introduction of the Euro, the single currency also adopted by Spain, Italy, Germany, France, and others.
+With aid from the EU, Portugal became one of the fastest-growing countries in Europe. The Algarve, 
+already a favorite of sun-seeking beach lovers from England and Northern Europe, also benefited
+from EU funds to build up its infrastructure and to invest in tourism. 
 ```
