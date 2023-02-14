@@ -90,3 +90,13 @@ With aid from the EU, Portugal became one of the fastest-growing countries in Eu
 already a favorite of sun-seeking beach lovers from England and Northern Europe, also benefited
 from EU funds to build up its infrastructure and to invest in tourism. 
 ```
+```
+[cs15lwi23auy@ieng6-201]:skill-demo1-data:395$ find ./written_2 -name "Bahamas-History.txt" -exec cat {} \;
+A Brief History
+Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi
+had settled in the Bahamas. Originally from South America, they
+...
+Will it be possible to enjoy the natural splendors of places like Inagua without upsetting the delicate balance
+of nature? At the moment, the thinking is that it’s perhaps best to leave these smaller, 
+less developed islands in peace.
+```
