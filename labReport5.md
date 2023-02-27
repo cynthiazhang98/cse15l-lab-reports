@@ -1,6 +1,7 @@
 ### the `find` command in bash
 #### 1) `-type`
-`find /path/to/search -type f #` - This function finds only files in the path given
+`find /path/to/search -type f #` - This function finds only files in the path given. 
+It's useful when you have a vague idea where a file is but you aren't sure.
 ```
 [cs15lwi23auy@ieng6-201]:skill-demo1-data:381$ find ./written_2 -type f
 ./written_2/non-fiction/OUP/Abernathy/ch1.txt
@@ -16,6 +17,7 @@
 ./written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 ```
 `find /path/to/search -type d` - This function finds only directories in the path given
+It's useful when you have a vague idea where a directory is but you aren't sure.
 ```
 [cs15lwi23auy@ieng6-201]:skill-demo1-data:380$ find ./written_2 -type d                        
 ./written_2
@@ -33,6 +35,7 @@
 ```
 #### 2) `-size`
 `find /path/to/search -size +100M` - find files larger than 100 MB
+It's useful when you want to know what files are over a specific size.
 ```
 [cs15lwi23auy@ieng6-201]:skill-demo1-data:377$ find ./written_2 -size +100k
 ./written_2/non-fiction/OUP/Berk/CH4.txt
@@ -54,6 +57,7 @@
 ```
 #### 3) `-mtime`
 `find /path/to/search -mtime +7` - find files modified more than 7 days ago
+It's usefull when you want to find a file that you were working on a while ago.
 ```
 [cs15lwi23auy@ieng6-201]:skill-demo1-data:388$ find ./written_2 -mtime -1
 ./written_2
@@ -79,6 +83,7 @@
 ```
 #### 4) `-exec`
 `find /path/to/search -name "name.txt" -exec cat {} \;` - prints everything in the `name` file 
+It's useful when you want to know the contents in a file
 ```
 [cs15lwi23auy@ieng6-201]:skill-demo1-data:394$ find ./written_2 -name "Algarve-History.txt" -exec cat {} \;
 A Brief History
