@@ -1,3 +1,4 @@
+ ###Revisiting Lab Report 2
  In lab report 3 I learned all the different mechanisms of the `find` command
  in bash. I used online tools like google engine and chatgpt to learn about
  the different mechanisms of the `find` command. 
