@@ -24,9 +24,9 @@
 ![image](https://user-images.githubusercontent.com/108198218/224517944-ee3234aa-2a9a-43f0-9162-a2a78ee8a4f1.png)
 ![image](https://user-images.githubusercontent.com/108198218/224517787-781dee77-71cc-4f97-ad54-8376ebc37d41.png)
 
-7)  <down> until cursor is at or <down> x42:
+7)  < down > until cursor is at or < down >x42:
 ![image](https://user-images.githubusercontent.com/108198218/224517974-50195da8-838a-472b-b492-322056eb7db0.png)
-- <right>x11 <backspace> <2> index1 should be changed to index2 on line 43
+- < right >x11 < backspace > < 2 > index1 should be changed to index2 on line 43
   result:
   
 ![image](https://user-images.githubusercontent.com/108198218/224518005-b6cf97af-05f8-4af3-becf-b20ae4aa1ad7.png)
